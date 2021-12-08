@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* NHN Incomms Web Standard UI Part KMJ 120910 */
+
+.cs_rgb_plt{clear:both;position:relative;width:590px;color:#000;font-family:'굴림',Gulim,Helvetica,AppleGothic,Sans-serif;font-size:12px;line-height:18px}
+.cs_rgb_plt a{color:#00c;font-family:'굴림',Gulim,Helvetica,AppleGothic,Sans-serif;font-size:12px;text-decoration:none}
+.cs_rgb_plt a:hover{text-decoration:underline}
+.cs_rgb_plt .blind{visibility:hidden;overflow:hidden;position:absolute;width:0;height:0}
+.cs_rgb_plt .rgb_wrap{height:207px;border:6px solid #f4f4f5;background-color:#fcfcfc}
+.cs_rgb_plt .rgb_wrap .rgb_section{overflow:hidden;float:left;width:223px;height:173px;border-right:1px solid #ededed;padding:17px}
+.cs_rgb_plt .rgb_wrap .rgb_section2{overflow:hidden;width:286px;height:173px;padding:17px}
+
+/* 선택 색상 코드 조회 */
+.cs_rgb_plt .rgb_wrap .rgb_section .rgb_exposure{overflow:hidden;width:223px;height:21px;margin-bottom:10px}
+.cs_rgb_plt .rgb_wrap .rgb_section .rgb_exposure .rgb_selec{float:left;display:block;width:95px;height:21px;text-indent:-9999px}
+.cs_rgb_plt .rgb_wrap .rgb_section .rgb_exposure .rgb_color{float:left;display:block;width:74px;outline:0 none;border:1px solid #c9c9c9;border-left:0;margin:0 3px 0 0;padding:4px 0 3px 5px; height:12px}
+.cs_rgb_plt .rgb_wrap .rgb_section .rgb_exposure .rgb_stk{position:absolute;top:23px;left:23px;width:93px;height:19px;border:1px solid #000;opacity:0.2;filter:alpha(opacity=20)}
+
+/* 색상 팔레트 */
+.rgb_plt{overflow:hidden}
+.rgb_plt .lst_picker{overflow:hidden;width:224px;margin:-1px 0 0 -1px}
+.rgb_plt .lst_picker li{float:left;width:15px;height:15px;border:1px solid #fff;border-width:1px 0 0 1px}
+.rgb_plt .lst_picker a{position:relative;display:block;text-indent:-9999px;width:100%;height:100%}
+.rgb_plt .lst_picker .skin{display:none;position:absolute;left:0;top:0;width:15px;height:15px;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/m2011sports/im/bg_rgb.png) no-repeat 0 -31px}
+.rgb_plt .lst_picker a:hover .skin{display:block}
+.rgb_plt .lst_picker .on .skin{display:block}
+.rgb_plt .lst_picker .wht{background:url(https://ssl.pstatic.net/sstatic/keypage/outside/m2011sports/im/bg_rgb.png) no-repeat 0 -56px}
+
+.rgb_plt .picker_type2{margin:10px 0 0}
+.rgb_plt .picker_type2 li{width:10px;height:21px;border:0}
+.rgb_plt .picker_type2 .picker_last_type2{width:13px}
+.rgb_plt .picker_type2 .skin{width:10px;height:21px;background-position:0px 0px}
+.rgb_plt .picker_type2 .last_skin{width:13px;height:21px;background-position:-62px 0}
+.rgb_plt .picker_type2 .wht{background-position:0px -81px}
+
+/* 색상 코드 */
+.cs_rgb_plt .rgb_wrap .rgb_section2{line-height:22px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code{margin-left:-1px;padding-bottom:14px;border-bottom:1px solid #ededed;}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code h4{font-size:12px;padding:0 0 9px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code label{float:left;display:block;margin-right:13px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code label.rgb_cmyk_h{margin-right:3px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .color_rgb{overflow:hidden}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .color_hsb{overflow:hidden;padding-top:14px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .color_cmyk{overflow:hidden;padding-top:14px}
+
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code2,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code3,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code2,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code3,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code2,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code3,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code4,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code_frst{float:left;display:block;height:12px;outline:0 none;border:1px solid #c9c9c9;background:#fff url(https://ssl.pstatic.net/sstatic/keypage/outside/m2011sports/im/bg_rgb.png) no-repeat}
+
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code2,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code3{width:54px;margin:0 0 0 6px;padding:4px 0 3px 21px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code{background-position:0 -112px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code2{background-position:0 -141px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code3{background-position:0 -170px}
+
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code2,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code3{width:55px;margin:0 0 0 6px;padding:4px 0 3px 20px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code_frst{width:54px;margin:0 0 0 7px;padding:4px 0 3px 21px;background-position:0 -199px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code2{background-position:0 -228px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code3{background-position:0 -257px}
+
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code2,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code3,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code4{width:34px;margin:0 0 0 5px;padding:4px 0 3px 21px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code{background-position:0 -286px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code2{background-position:0 -315px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code3{background-position:0 -344px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code4{background-position:0 -373px}
+
+/* color input focus */
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code.on,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code2.on,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code3.on{width:52px;border:2px solid #59a509;padding:3px 1px 2px 20px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code.on{background-position:-1px -113px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code2.on{background-position:-1px -142px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code3.on{background-position:-1px -171px}
+
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code_frst.on{border:2px solid #59a509;width:52px;padding:3px 1px 2px 20px;background-position:-1px -200px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code2.on,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code3.on{border:2px solid #59a509;width:53px;padding:3px 1px 2px 19px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code2.on{background-position:-1px -229px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code3.on{background-position:-1px -258px}
+
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code.on,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code2.on,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code3.on,.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code4.on{border:2px solid #59a509;width:32px;padding:3px 1px 2px 20px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code.on{background-position:-1px -287px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code2.on{background-position:-1px -316px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code3.on{background-position:-1px -345px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .cmyk_code4.on{background-position:-1px -374px}
+
+.cs_rgb_plt .rgb_wrap .rgb_section2 .rgb_txt{overflow:hidden;position:relative;padding-top:13px;font-family:'돋움',Dotum;font-size:11px;letter-spacing:-1px;color:#999;line-height:21px}
+.cs_rgb_plt .rgb_wrap .rgb_section2 .rgb_txt a{width:45px;height:21px;position:absolute;top:12px;right:0}
+
+/* 안내문구 */
+.cs_rgb_plt .rgb_info{padding:9px 0 7px 18px;font-family:'돋움',Dotum;font-size:11px;letter-spacing:-1px;color:#999;border-bottom:1px solid #f0f0f1; background:url(https://ssl.pstatic.net/sstatic/keypage/outside/m2011sports/im/bg_rgb.png) no-repeat -61px -45px}
+
+/* 관련링크 */
+.cs_rgb_plt .other_info{overflow:hidden;clear:both;padding:7px 0 21px;_padding:7px 0 20px; margin-left:-1px}
+.cs_rgb_plt .other_info dt{float:left;margin-right:13px;_margin-right:10px;line-height:18px;color:#444 !important}
+.cs_rgb_plt .other_info dd{overflow:hidden;line-height:18px;zoom:1}
+.cs_rgb_plt .other_info .cs_bar{padding:0 4px 0 4px;color:#d8d8d8}

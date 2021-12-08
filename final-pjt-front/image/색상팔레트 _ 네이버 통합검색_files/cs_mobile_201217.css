@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* 모바일앱 검색 */
+
+.sp_mobile .api_cs_wrap{
+    position:relative;
+}
+
+.sp_mobile.section {
+    padding-bottom: 17px
+}
+.sp_mobile .go_relate {
+    float: right;
+    top: -3px;
+    color: #777
+}
+.sp_mobile .go_relate img {
+    margin: -1px 0 3px -1px;
+    vertical-align: middle
+}
+.sp_mobile .app_wrap {
+    overflow: visible;
+    margin: 19px 0 3px 10px
+}
+.sp_mobile .app_wrap .thumb {
+    float: left;
+    margin-right: 18px
+}
+.sp_mobile .app_wrap .thumb img {
+    vertical-align: top
+}
+.sp_mobile .app_wrap .thumb.noimg img {
+    display: none
+}
+.sp_mobile .app_wrap .thumb.noimg {
+    width: 85px;
+    height: 85px;
+    background-color: #f5f7f8
+}
+.sp_mobile .app_wrap .thumb.noimg a {
+    display: block;
+    width: 62px;
+    height: 47px;
+    background: url('../img/img_noimg2.png') no-repeat;
+    margin: 18px auto
+}
+
+.sp_mobile .app_wrap dt {
+    display: block;
+}
+.sp_mobile .app_wrap .app_title {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding:3px 10px 7px 0;
+    font-size: 1.6rem;
+}
+
+.sp_mobile .grade:before{
+    content:'';
+    display:inline-block;
+    width:13px;
+    height:12px;
+    vertical-align: middle;
+    margin:-5px 3px 0 0;
+    background:url(../img/spr_ico_v2.png) 0 -17px no-repeat;
+    background-size:50px 50px;
+    -webkit-background-size:50px 50px;
+}
+.sp_mobile .grade{
+    margin-right:2px;
+}
+.sp_mobile .app_wrap dd {
+    margin: 0;
+    line-height: 19px;
+    word-wrap: normal;
+    word-break: normal
+}
+.sp_mobile .app_wrap li {
+    float: none;
+    border-top: 1px solid #f1f4f6;
+    padding: 15px 0;
+    margin: 0
+}
+.sp_mobile .app_wrap li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+.sp_mobile .app_wrap .cate {
+    margin-top: 0;
+    color:#242424;
+    font-size: 1.3rem;
+}
+.sp_mobile .app_wrap .cate a{
+    color:#808080;
+}
+.sp_mobile .app_bar {
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    height: 10px;
+    margin: 3px 8px 1px 8px;
+    border-left: 1px solid #dddddd;
+    vertical-align: top;
+}
+.sp_mobile .app_wrap .cate .price{
+    color:#808080
+}
+.sp_mobile .os_type{
+    display:inline-block;
+    vertical-align:top;
+    margin-top:-2px;
+    color:#808080
+}
+.sp_mobile .app_wrap .cate .price:before{
+    content:'';
+    display:inline-block;
+    width:3px;
+    height:3px;
+    background-color:#d8d8d8;
+    border-radius:100%;
+    -webkit-border-radius:100%;
+    vertical-align: middle;
+    margin:-2px 6px 0;
+
+}
+.sp_mobile .app_wrap .supply {
+    font-size: 1.3rem;
+    color:#808080;
+    margin-top:6px;
+}
+.sub_text{
+    display:inline-block;
+    margin-left:4px;
+}
+.sp_mobile .app_wrap .supply img {
+    margin: 1px 0;
+    vertical-align: middle
+}
+.sp_mobile .app_wrap .supply a img {
+    margin: -3px 2px 0 0
+}
+.sp_mobile .app_wrap .supply .tx_event a {
+    margin-left: 8px
+}
+.sp_mobile .app_wrap li .ico_fee,
+.sp_mobile .app_wrap li .ico_discnt {
+    margin-left: 6px;
+    vertical-align: -3px
+}
+.sp_mobile .app_wrap li .ico_discnt {
+    margin-left: 3px
+}
+.sp_mobile .app_wrap li .block a {
+    max-width: 430px
+}
+.sp_mobile .app_wrap li .block .ico_block {
+    display: inline-block;
+    overflow: hidden;
+    width: 14px;
+    height: 13px;
+    background: url('../img/ico_block.gif') no-repeat;
+    line-height: 100px;
+    vertical-align: middle
+}
+.sp_mobile .ico_mkt {
+    position: relative;
+    top: 2px
+}
+.sp_mobile .section_more {
+    padding-top: 0;
+    margin-top: -18px
+}
+.sp_mobile .go_other {
+    display: inline-block;
+    padding-top: 3px;
+    margin-right: 12px;
+    font-size: 12px;
+    text-decoration: underline;
+    letter-spacing: -1px;
+    color: #666
+}
+/* 타이틀 앞 아이콘 추가 */
+.sp_mobile dl .cate .ico_st {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: -4px 5px 0 0;
+    background:url(../img/spr_ico_v2.png) 0 0 no-repeat;
+    background-size:50px 50px;
+    -webkit-background-size:50px 50px;
+    vertical-align: middle;
+    content: ''
+}
+.sp_mobile dl .cate .ico_st.google {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    margin: -1px 5px 4px 0;
+    background-position:-17px 0;
+    content: ''
+}
+.sp_mobile dl .cate a {
+    text-decoration: none
+}
+/* QR코드 레이어 */
+.sp_mobile .app_wrap .qr_area {
+    clear: both;
+    position: relative;
+    top: 0;
+    left: 103px;
+    z-index: 120
+}
+.sp_mobile .app_wrap .btn_qr_wrap {
+    display: inline;
+    overflow: hidden;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+    z-index: 100;
+    width: 315px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #dadde1;
+    background: #fff;
+    padding:15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    line-height: 1.38;
+    letter-spacing: -0.2px;
+    color: #505050;
+}
+.sp_mobile .app_wrap .btn_qr_wrap .ly_thumb {
+    float: left;
+    width: 58px;
+    height: 58px;
+    margin-right: 9px;
+    padding: 10px;
+    border: 3px solid #36ae0c
+}
+.sp_mobile .app_wrap .btn_qr_wrap .ly_thumb img {
+    vertical-align: top
+}
+.sp_mobile .app_wrap .btn_qr_wrap .ly_thumb.noimg img {
+    display: none
+}
+.sp_mobile .app_wrap .btn_qr_wrap .ly_thumb.noimg span {
+    display: block;
+    width: 49px;
+    height: 49px;
+    margin: 4px auto;
+    background: url('../img/noimg_qr.png') no-repeat -4px -5px
+}
+.sp_mobile .app_wrap .btn_qr_wrap .ly_p_dsc {
+    overflow: hidden;
+    margin-bottom: 4px;
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777
+}
+.sp_mobile .app_wrap .btn_qr_wrap .qr_mr {
+    font-size: 11px;
+    line-height: 14px;
+    color: #777;
+    letter-spacing: -1px;
+    text-decoration: underline
+}
+.sp_mobile .app_wrap .btn_qr_wrap .btn_ly_clse {
+    position: absolute;
+    top: 8px;
+    right: 8px
+}
+.sp_mobile .app_wrap .btn_qr_wrap .btn_ly_clse img {
+    display: block;
+    vertical-align: top
+}
+.sp_mobile .go_other.v2 {
+    margin-right: 0
+}
+.sp_mobile .app_wrap.type_half{font-size:0;line-height:0;margin:0;}
+.sp_mobile .app_wrap.type_half li{position:relative;display:inline-block;padding:0;font-size:1.3rem;line-height:1.9rem;width:calc(50% - 5px);vertical-align:top;border-top:0;}
+.sp_mobile .app_wrap.type_half li .app_link{display:block;height:8.2rem;padding:19px 5px 0 0;}
+.sp_mobile .app_wrap.type_half li:nth-child(2n) .app_link{padding:19px 0 0 5px}
+.sp_mobile .app_wrap.type_half li:nth-child(3):after{content:'';position:absolute;top:0;left:-20px;height:1px;width:670px;background:#f1f4f6;}
+.sp_mobile .app_wrap.type_half li .app_title{padding:11px 0 9px}
+.sp_mobile .app_wrap.type_half .thumb.noimg{width:64px;height:64px;}
+.sp_mobile .app_wrap.type_half li .store_layer{top:52px;left:82px;}
+/* .sp_mobile .app_wrap.type_half li .app_link:hover+.store_layer{display:block;} */
+.sp_mobile .app_wrap.type_half li.selected .store_layer{display:block;}
+.sp_mobile .grade_bx .grade{display: inline-block; width: 69px; height: 13px; line-height: 13px; vertical-align: top; margin-top: 2px; background: url(../img/spr_star.png) 0 -15px no-repeat; background-size: 69px 28px; -webkit-background-size: 69px 28px;}
+.sp_mobile .grade_bx .grade:before{display:none;}
+.sp_mobile .grade_bx .grade span{overflow: hidden; display: inline-block; width: 69px; height: 13px; background: url(../img/spr_star.png) no-repeat; background-size: 69px 28px; -webkit-background-size: 69px 28px;}
+.sp_mobile .grade_bx .grade_text{display:inline-block;vertical-align:top;margin:-2px 0 0 2px;}
+
+.sp_mobile .subinfo_area{color:#808080;overflow:hidden;padding:12px 20px 16px;border-top:1px solid #f1f4f6;}
+.sp_mobile .subinfo_area p{display:inline-block;vertical-align:top}
+.sp_mobile .subinfo_area p+p{float:right;}
+
+/* 레이어 */
+.sp_mobile .store_layer{display:none;position:absolute;background:#fff;color:#505050;z-index:6000;}
+.sp_mobile .store_layer .store_wrap{-webkit-border-radius: 3px;border-radius: 3px;-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);border: solid 1px #dadde1;}
+.sp_mobile .store_layer .store_wrap li{display:block;width:132px;height:3.6rem!important;line-height:3.6rem!important;padding:0 10px!important;color:#505050;letter-spacing:-0.2px;text-align:left;}
+.sp_mobile .store_layer .store_wrap li:hover{font-weight:bold;color:#242424;background-color: #fafbfc;}
+.sp_mobile .store_layer .store_wrap li+li{border-top:1px solid #f1f4f6;}
+.sp_mobile .store_layer .store_wrap li:after{display:none!important;}
+.sp_mobile .store_layer .store_wrap li a{color:inherit;}
+.sp_mobile .store_layer .store_wrap li a:hover{text-decoration:none;}
+.sp_mobile .store_layer .store_wrap [class*="ico"]{display:inline-block;vertical-align:top;width:12px;height:12px;margin:11px 4px 0 0;background:url(../img/spr_ico_v2.png) 0 -32px no-repeat;background-size:50px 50px;-webkit-background-size:50px 50px;}
+.sp_mobile .store_layer .store_wrap .ico_one{background-position:0 -32px}
+.sp_mobile .store_layer .store_wrap .ico_play{width:11px;;background-position:-14px -32px}
+.sp_mobile .store_layer .store_wrap .ico_app{background-position:-27px -32px}
+
+/* 그리드 */
+.sp_mobile .app_grid_list{margin:16px -20px 9px;}
+.sp_mobile .api_flicking_wrap{-ms-overflow-style: none; scrollbar-width: none;border-spacing: 0;border-collapse: separate;table-layout: fixed;padding:1px 0 4px 15px;}
+.sp_mobile .api_flicking_wrap.single .app_eachlist{height:151px}
+.sp_mobile .api_flicking_wrap.single .flick_bx.flick_more{height:176px;}
+.sp_mobile .api_flicking_wrap::-webkit-scrollbar {display:none;}
+.sp_mobile .api_flicking_wrap .flick_bx{display:table-cell;position:relative;vertical-align:top;}
+/* .sp_mobile .api_flicking_wrap .flick_bx:first-child .app_eachlist{margin-left:10px;}
+.sp_mobile .api_flicking_wrap .flick_bx:first-child .app_eachlist:before{left:11px;} */
+.sp_mobile .api_flicking_wrap .flick_bx:last-child .app_eachlist{margin-right:15px;}
+.sp_mobile .api_flicking_wrap .flick_bx:last-child .app_eachlist:before{right:16px;}
+.sp_mobile .api_flicking_wrap .flick_bx.flick_more{height:197px;}
+.sp_mobile .app_eachlist{margin:9px 4px 17px 4px;padding:1px 1px 4px;font-size:1.3rem;line-height:1.8rem;height:171px;}
+.sp_mobile .app_eachlist:before{content:'';display:block;position:absolute;top:1px;left:5px;right:5px;bottom:4px;border-radius:6px;-webkit-border-radius:6px; -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.04), 0 0 2px 0 rgba(0, 0, 0, 0.15);box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.04), 0 0 2px 0 rgba(0, 0, 0, 0.15);z-index:-1;}
+.sp_mobile .app_eachlist .store_wrap{display:block;margin:0 auto;width:118px;color:#242424;}
+.sp_mobile .app_eachlist a.store_wrap{color:#0068c3;}
+.sp_mobile .app_eachlist .appinfo_thmb{text-align:center}
+.sp_mobile .app_eachlist .thumb_img{display:inline-block;text-align:center;vertical-align:top;}
+.sp_mobile .app_eachlist .appinfo{padding:8px 10px 28px}
+.sp_mobile .app_eachlist .app_name_box{max-height:3.8rem;overflow:hidden;}
+.sp_mobile .app_eachlist .app_name{font-size:1.5rem;line-height:1.9rem;font-weight:normal;}
+.sp_mobile .app_eachlist .app_footer{position:absolute;bottom:11px;font-size:1.3rem;color:#242424;}
+.sp_mobile .app_eachlist .app_footer em{display:inline-block;vertical-align:top;margin:-1px 0 0 0;}
+.sp_mobile .app_eachlist .app_footer .app_bar{margin:4px 5px 1px;}
+.sp_mobile .app_eachlist .app_footer .os_type{margin-top:-1px;}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* .sp_mobile .api_flicking_wrap{padding:1px 13px 4px 11px;border-spacing: 0 9px} */
+    /* .sp_mobile .app_eachlist{margin:9px 0 17px 0;}
+    .sp_mobile .app_eachlist:before{left:1px;right:1px} */
+    /* .sp_mobile .app_eachlist{padding:0;}
+    .sp_mobile .app_eachlist:before{height:auto;-webkit-box-shadow:none;box-shadow:none}
+    .sp_mobile .api_flicking_wrap .flick_bx{padding:1px 0px;}
+    .sp_mobile .api_flicking_wrap .flick_bx:first-child .app_eachlist{margin-left:0;}
+    .sp_mobile .api_flicking_wrap .flick_bx:last-child .app_eachlist{margin-right:0px;}
+    .sp_mobile .api_flicking_wrap:after{content:'';display:table-cell;width:1px;padding-right:2px;height:100%;} */
+}
